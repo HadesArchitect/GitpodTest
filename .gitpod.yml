@@ -3,11 +3,8 @@ tasks:
     init: |
       docker pull cassandra:4
       pip install -U cqlsh
-      docker run -d --name casya --volume casya:/var/lib/cassandra --port 9042:9042 cassandra:4
-      until cqlsh -e "describe cluster" >/dev/null 2>&1; do sleep 2; done
-      docker stop casya
     command: | 
-      docker start casya
+      docker run -d --name casya --publish 9042:9042 cassandra:4
       timeout 60 bash -c 'until cqlsh -e "describe cluster" >/dev/null 2>&1; do sleep 2; done';
 ports:
   - port: 9042
