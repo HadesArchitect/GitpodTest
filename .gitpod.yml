@@ -16,4 +16,4 @@ github:
     main: true
 vscode:
   extensions:
-    - https://github.com/HadesArchitect/katapod/releases/download/0.4.0/katapod-0.4.0.vsix
+    - https://github.com/HadesArchitect/katapod/releases/download/0.4.1/katapod-0.4.1.vsix
