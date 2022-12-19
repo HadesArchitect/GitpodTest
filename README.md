@@ -1,6 +1,6 @@
 # Gitpod Test
 
-[![Open in KataPod](https://gitpod.io/button/open-in-gitpod.svg)](https://katapod.datastaxtraining.com/#https://github.com/HadesArchitect/GitpodTest/)
+[![Open in KataPod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/HadesArchitect/GitpodTest/)
 
 By default it always opens `intro.md` file.
 
